@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="#00555555" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/root_dialog" android:background="@drawable/blue_border" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.sticker.app.github.gabrielbb.cutout.test.utils.TextViewBold android:textSize="@dimen/_14sdp" android:textStyle="bold" android:textColor="#fff" android:id="@+id/homeTitleDi1" android:background="@drawable/shape_top_title" android:paddingLeft="@dimen/_20sdp" android:paddingTop="@dimen/_10sdp" android:paddingBottom="@dimen/_10sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ARE YOU SURE?"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp">
+                <com.sticker.app.github.gabrielbb.cutout.test.utils.CustomeTextView android:textSize="@dimen/_15sdp" android:textColor="@color/grey" android:id="@+id/etPackageName" android:background="@null" android:paddingLeft="@dimen/_12sdp" android:paddingTop="@dimen/_10sdp" android:paddingBottom="@dimen/_5sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4sdp" android:text="Deleting this package will also remove it from your WhatApp app.." android:maxLines="4" android:layout_weight="1"/>
+                <View android:background="#cac6c6" android:layout_width="match_parent" android:layout_height="@dimen/_1sdp" android:layout_marginTop="@dimen/_10sdp"/>
+                <LinearLayout android:padding="@dimen/_10sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:layout_marginBottom="@dimen/_10sdp" android:weightSum="2">
+                    <com.sticker.app.github.gabrielbb.cutout.test.utils.TextViewButton android:textSize="@dimen/_13sdp" android:textColor="@color/white" android:gravity="center" android:id="@+id/tvOk" android:background="@drawable/btn_delete" android:padding="@dimen/_7sdp" android:layout_width="@dimen/_60sdp" android:layout_height="@dimen/_35sdp" android:text="Delete" android:layout_weight="1" android:layout_marginEnd="@dimen/_10sdp"/>
+                    <com.sticker.app.github.gabrielbb.cutout.test.utils.TextViewButton android:textSize="@dimen/_13sdp" android:textColor="@color/white" android:gravity="center" android:id="@+id/tvCancel" android:background="@drawable/btn_blue" android:padding="@dimen/_7sdp" android:layout_width="@dimen/_60sdp" android:layout_height="@dimen/_35sdp" android:text="Dismiss" android:layout_weight="1" android:layout_marginStart="@dimen/_10sdp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

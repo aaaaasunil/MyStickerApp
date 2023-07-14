@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:padding="@dimen/_10sdp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:textSize="@dimen/_55sdp" android:textColor="#ddbe23" android:gravity="center" android:id="@+id/ivImage" android:background="@drawable/shape_orange_border" android:layout_width="@dimen/_70sdp" android:layout_height="@dimen/_70sdp" android:src="@drawable/ic_sticker_m"/>
+</LinearLayout>

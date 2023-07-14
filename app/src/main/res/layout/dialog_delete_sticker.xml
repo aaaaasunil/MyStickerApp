@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00555555">
+
+    <RelativeLayout
+        android:id="@+id/root_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/blue_border">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_top_title">
+
+                <com.sticker.app.github.gabrielbb.cutout.test.utils.TextViewBold
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:paddingLeft="@dimen/_20sdp"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:text="ARE YOU SURE?"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/ivShare"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:src="@drawable/ic_sticker_m"
+                    android:tint="@color/white"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <com.sticker.app.github.gabrielbb.cutout.test.utils.CustomeTextView
+                    android:id="@+id/tvText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:maxLines="4"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:text="Deleting this sticker will also remove it from your WhatApp app.."
+                    android:textColor="#525050"
+                    android:textSize="@dimen/_12sdp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="@dimen/_270sdp"
+                    android:layout_height="@dimen/_260sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/kkk" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="#cac6c6" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:weightSum="2">
+
+                    <com.sticker.app.github.gabrielbb.cutout.test.utils.TextViewButton
+                        android:id="@+id/tvOk"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_delete"
+                        android:gravity="center"
+                        android:padding="@dimen/_7sdp"
+                        android:text="Delete"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_13sdp"
+                        android:visibility="visible" />
+
+                    <LinearLayout
+                        android:id="@+id/llShare"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_green"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:src="@drawable/ic_sticker_m"
+                            android:tint="@color/white" />
+
+                        <com.sticker.app.github.gabrielbb.cutout.test.utils.TextViewButton
+                            android:id="@+id/tvShare"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_35sdp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="@dimen/_7sdp"
+                            android:text="Share"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_13sdp" />
+                    </LinearLayout>
+
+                    <com.sticker.app.github.gabrielbb.cutout.test.utils.TextViewButton
+                        android:id="@+id/tvCancel"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_blue"
+                        android:gravity="center"
+                        android:padding="@dimen/_7sdp"
+                        android:text="Dismiss"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_13sdp"
+                        android:visibility="visible" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

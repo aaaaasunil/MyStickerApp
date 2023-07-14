@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00555555">
+
+    <RelativeLayout
+        android:id="@+id/root_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/blue_border">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_top_title">
+
+                <com.sticker.app.github.gabrielbb.cutout.test.utils.TextViewBold
+                    android:id="@+id/homeTitleDi1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/_10sdp"
+                    android:text="INVALID ACTION"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:orientation="vertical">
+
+                <com.sticker.app.github.gabrielbb.cutout.test.utils.CustomeTextView
+                    android:id="@+id/tvMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:maxLines="4"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingTop="@dimen/_3sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:text="In order to be applied to WhatsApp, the sticker pack must have at least 3 stickers. Please add more stickers first."
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/_15sdp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:weightSum="2">
+
+                    <com.sticker.app.github.gabrielbb.cutout.test.utils.TextViewButton
+                        android:id="@+id/tvOk"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="@dimen/_40sdp"
+                        android:layout_marginRight="@dimen/_40sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_orange_round"
+                        android:gravity="center"
+                        android:padding="@dimen/_7sdp"
+                        android:text="OK"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_13sdp" />
+
+                    <TextView
+                        android:id="@+id/tvCancel"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_orange_round"
+                        android:gravity="center"
+                        android:padding="@dimen/_7sdp"
+                        android:text="Cancel"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout><!--    com\github\gabrielbb\cutout-->

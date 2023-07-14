@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="#00555555" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/root_dialog" android:background="@drawable/blue_border" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_10sdp" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.sticker.app.github.gabrielbb.cutout.test.utils.TextViewBold android:textSize="@dimen/_14sdp" android:textStyle="bold" android:textColor="@color/colorBlue" android:id="@+id/homeTitleDi1" android:paddingLeft="@dimen/_30sdp" android:paddingTop="@dimen/_10sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="PICK YOUR PACK ICON IMAGE"/>
+            <LinearLayout android:padding="@dimen/_10sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_20sdp" android:layout_marginTop="@dimen/_10sdp" android:layout_marginRight="@dimen/_10sdp" android:layout_marginBottom="@dimen/_20sdp">
+                <com.sticker.app.github.gabrielbb.cutout.test.utils.TextViewButton android:textSize="@dimen/_13sdp" android:textColor="#fff" android:gravity="center" android:id="@+id/tvOk" android:background="@drawable/btn_orange_round" android:padding="@dimen/_9sdp" android:layout_width="@dimen/_60sdp" android:layout_height="wrap_content" android:text="Select pack icon" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

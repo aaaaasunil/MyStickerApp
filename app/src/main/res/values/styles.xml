@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme">
+    </style>
+    <style name="AppTheme.ActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay">
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.PopupOverlay">
+    </style>
+
+    <style name="CardView">
+    </style>
+    <style name="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+    <style name="CardView.Light">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <style name="DialogTheme">
+        <item name="android:windowEnterAnimation">@anim/slide_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_right</item>
+    </style>
+    <style name="DialogThemen_2">
+        <item name="android:windowEnterAnimation">@anim/slide_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_right</item>
+    </style>
+    <style name="DialogThemen_3">
+        <item name="android:windowEnterAnimation">@anim/slide_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_right</item>
+    </style>
+    <style name="InfoButtonStyle">
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:paddingLeft">31dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:drawablePadding">32dp</item>
+        <item name="android:paddingStart">24dp</item>
+    </style>
+
+
+
+
+
+    <style name="StickerPreviewButtonText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <style name="TextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ThemeSpinner">
+        <item name="colorAccent">@android:color/transparent</item>
+        <item name="colorControlNormal">@android:color/transparent</item>
+    </style>
+    <style name="Theme_Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget.AppCompat.TextView.SpinnerItem">
+    </style>
+
+    <style name="content">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="spinner">
+        <item name="android:theme">@style/ThemeSpinner</item>
+        <item name="android:background">@drawable/bg_spinner</item>
+        <item name="android:maxHeight">@dimen/_34sdp</item>
+        <item name="android:minHeight">@dimen/_34sdp</item>
+    </style>
+    <style name="sticker_packs_list_item_author_style">
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">clip_horizontal</item>
+    </style>
+    <style name="title">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+</resources>
