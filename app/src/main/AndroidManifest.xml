@@ -25,6 +25,8 @@
 <!--        android:name="com.sticker.app.permission.C2D_MESSAGE"-->
 <!--        android:protectionLevel="signature" />-->
 <!--    <uses-permission android:name="com.sticker.app.permission.C2D_MESSAGE" />-->
+
+
     <application
         android:name="com.sticker.app.github.gabrielbb.cutout.test.static_icon.StickerApplication"
         android:allowBackup="true"
@@ -203,6 +205,8 @@
         <meta-data
             android:name="com.android.vending.derived.apk.id"
             android:value="1" />
+
     </application>
+    
 </manifest>
 
